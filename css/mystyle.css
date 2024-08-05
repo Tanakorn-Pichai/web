@@ -7,3 +7,9 @@ h2{
 h3{
     color: green;
 }
+.center {
+    color: red;
+  }
+  #para1 {
+    text-align: left;
+  }

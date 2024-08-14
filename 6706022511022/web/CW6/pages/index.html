@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/res.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style the body */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #202222;
+            color: yellow;
+
+        }
+
+        /* Column container */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .items {
+            width: auto;
+            height: auto;
+            background-color: rgb(89, 187, 243);
+            /* border: 1px solid rgb(255, 255, 255); */
+            margin: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .items a:hover{
+            background-color: #ddd;
+            color: black;
+        }
+
+
+        .side {
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+
+        }
+
+        /* Main column */
+        .main {
+            flex: 70%;
+            background-color: rgb(255, 111, 16);
+            padding: 20px;
+            display: flex;
+            height: 100vh;
+
+
+        }
+
+        /* Footer */
+        .footer {
+            padding: 5px;
+            text-align: center;
+            background: #202222;
+            color: yellow;
+        }
+
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+
+            .side {
+                display: flex;
+            }
+
+            /* .main {
+                
+            } */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Index</h1>
+    </div>
+
+    <div class="row">
+        <div class="side">
+          
+                <div class="items">Page 1</div>
+            
+            <a href="">
+                <div class="items">Page 2</div>
+            </a>
+            <a href="">
+                <div class="items">Page 3</div>
+            </a>
+        </div>
+        <div class="main">
+            <h4>Welcome to the Homepage</h4>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer content © 2024</h2>
+    </div>
+</body>
+
+</html>

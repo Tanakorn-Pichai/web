@@ -1,0 +1,138 @@
+/* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.flex-container>div {
+    background-color: rgb(209, 78, 8);
+    color: aliceblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+/* .container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+} */
+
+/* .items {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+} */
+
+/* flex-direction: */
+/* .container {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* flex-wrap:  */
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+
+/* justify-content: */
+/* .container{
+    display: flex;
+    justify-content: center;
+} */
+/* .container{
+    display: flex;
+    justify-content: flex-start;
+} */
+/* .container{
+    display: flex;
+    justify-content: flex-end;
+}  */
+
+/* .container{
+    display: flex;
+    justify-content: space-between;
+}  */
+
+/* .container{
+    display: flex;
+    align-items:center;
+} */
+
+/* .container{
+    display: flex;
+    align-items:flex-start;
+} */
+
+/* .container{
+    display: flex;
+    align-items:flex-end;
+} */
+
+/* .container{
+    display: flex;
+    align-items:stretch;
+} */
+
+
+/* .container{
+    display: flex;
+    align-items:baseline;
+} */
+
+/* .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+/* .container{
+    display: flex;
+    flex-flow: column wrap;
+} */
+
+/* .container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+* {
+
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: #ec5a16;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    background-color: #6429e2;
+    padding: 10px;
+    flex: 50%;
+}
+
+/* Responsive layout*/
+@media (max-width:500px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}

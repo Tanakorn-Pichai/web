@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register</title>
+    <link rel="stylesheet" href="css/newstyle.css">
+</head>
+
+<body>
+    <form method="post">
+        <table border="2" width="600px">
+            <tr>
+                <td>Info</td>
+                <td>User Input</td>
+            </tr>
+            <tr>
+                <td>กรอกรหัส นศ.</td>
+                <td><input type="text" name="std_id" id=""></td>
+            </tr>
+            <tr>
+                <td>กรอกชื่อ นศ.</td>
+                <td><input type="text" name="std_name" id=""></td>
+            </tr>
+            <tr>
+                <td>กรอกอีเมล นศ.</td>
+                <td><input type="email" name="std_email" id=""></td>
+            </tr>
+            <tr>
+                <td>กรอกรหัสผ่าน</td>
+                <td><input type="password" name="std_password" id=""></td>
+            </tr>
+            <tr>
+                <td>กรอกเบอร์โทร</td>
+                <td><input type="tel" name="std_tel" id=""></td>
+            </tr>
+            <tr>
+                <td>วัดเดือนปีเกิด</td>
+                <td><input type="date" name="std_born" id=""></td>
+            </tr>
+            <tr>
+                <td>สีที่ชอบ</td>
+                <td><input type="color" name="std_color" id=""></td>
+            </tr>
+            <tr>
+                <td>น้ำหนัก</td>
+                <td><input type="number" name="std_weigh" min="20" max="200" id="">KG.</td>
+            </tr>
+            <tr>
+                <td>ส่วนสูง</td>
+                <td><input type="number" name="std_heigth" min="100" max="250" id="">CM.</td>
+            </tr>
+            <tr>
+                <td>รูปภาพหน้าตรง</td>
+                <td><input type="file" name="std_img" id=""></td>
+            </tr>
+            <tr>
+                <td>สาขาวิชา</td>
+                <td><input type="radio" name="std_major" id="" value="INET"> INET
+                    <input type="radio" name="std_major" id="" value="INE">INE
+                    <input type="radio" name="std_major" id="" value="IT">IT
+                    <input type="radio" name="std_major" id="" value="IT">ITI
+                </td>
+            </tr>
+            <tr>
+                <td>อาหาร</td>
+                <td><input type="checkbox" name="std_food" id="" value="ham"> ham
+                    <input type="checkbox" name="std_food" id="" value="rice">rice
+                    <input type="checkbox" name="std_food" id="" value="steak">steak
+                </td>
+            </tr>
+            <tr>
+                <td>ที่อยู่</td>
+                <td><textarea name="address" rows="5" cols="30" ></textarea></td>
+            </tr>
+            <tr>
+                <td>ชั้นปี</td>
+                <td><select name="std_year" id="">
+                    <option value="1">ปี 1</option>
+                    <option value="2">ปี 2</option>
+                    <option value="3">ปี 3</option>
+                    <option value="4">ปี 4</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>ยืนยันข้อมูล</td>
+                <td><input type="submit" name="std_submit" id="" value="OK"><input type="reset" name="std_submit" id=""
+                        value="cancel"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

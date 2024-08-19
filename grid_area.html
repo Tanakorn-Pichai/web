@@ -3,7 +3,8 @@
 
 <head>
     <style>
-        /* .item1 {
+        
+        .item1 {
             grid-area: header;
         }
 
@@ -22,12 +23,17 @@
         .item5 {
             grid-area: footer;
         }
+        .item6 {
+            grid-area: topmenu;
+        }
 
         .grid-container {
             display: grid;
+            
             grid-template-areas:
                 'header header header header header header'
-                'menu main main main right right'
+                'topmenu topmenu topmenu topmenu topmenu topmenu'
+                'menu main main main right  right'
                 'menu footer footer footer footer footer';
             gap: 10px;
             background-color: #2196F3;
@@ -39,8 +45,9 @@
             text-align: center;
             padding: 20px 0;
             font-size: 30px;
-        } */
+        }
 
+    
         /* .grid-container {
             display: grid;
             grid-template-columns: auto auto auto;
@@ -78,9 +85,9 @@
 
         .item6 {
             grid-area: 2 / 2 / 3 / 3;
-        } */
+        }
 
-        .grid-container {
+        /* .grid-container {
             display: grid;
             grid-template-columns: auto auto auto;
             gap: 10px;
@@ -119,21 +126,22 @@
             .item6 {
                 grid-area: 2 / 3 / 3 / 4;
             }
-        }
+        } */
     </style>
 </head>
 
 <body>
-    <!-- <h1>The grid-area Property</h1>
+    <h1>The grid-area Property</h1>
     <div class="grid-container">
         <div class="item1">Header</div>
+        <div class="item6">Top Menu</div>
         <div class="item2">Menu</div>
         <div class="item3">Main</div>
         <div class="item4">Right</div>
         <div class="item5">Footer</div>
-    </div> -->
+    </div>
 
-    <h1>Sort the Items</h1>
+    <!-- <h1>Sort the Items</h1>
     <div class="grid-container">
         <div class="item1">1</div>
         <div class="item2">2</div>
@@ -141,7 +149,7 @@
         <div class="item4">4</div>
         <div class="item5">5</div>
         <div class="item6">6</div>
-    </div>
+    </div> -->
 </body>
 
 </html>
